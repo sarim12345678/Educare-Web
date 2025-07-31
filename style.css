@@ -138,6 +138,10 @@ nav > ul > li > a{
     height: 22rem;
     width: 22rem;
     }
+    .about-img{
+        height: 18rem;
+        width: 22rem;
+    }
     .about-container{
         flex-direction: column;
         align-items: center;
