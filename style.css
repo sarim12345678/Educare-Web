@@ -116,6 +116,28 @@ nav > ul > li > a{
     height: 15rem;
     width: 23rem;
 }
+.rectangular-bar{
+    height: 7rem;
+    width: 52rem;
+    background-color: #F9E0AE;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    border-radius: 8px;
+}
+.flex{
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.rectangular-bar-btn{
+    background-color: #C24914;
+    color: #F9E0AE;
+    font-weight: bold;
+}
 
 
 
@@ -128,7 +150,12 @@ nav > ul > li > a{
 
 
 
-@media (max-width:833px) {
+
+
+
+
+
+@media (max-width:847px) {
     .hamburger-icon{
         display: block;
         font-size: 30px;
@@ -177,5 +204,10 @@ nav > ul > li > a{
     }
     .course-text-h2{
         text-align: center;
+    }
+    .rectangular-bar{
+        flex-direction: column;
+        height: 10rem;
+        width: 20rem;
     }
 }
